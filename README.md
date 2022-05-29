@@ -1,6 +1,6 @@
 # near-smart-contract
 
-A smart contract on the NEAR protocol that implements a counter. The counter is easy to implement but the stored on the near blockchain.
+A smart contract on the NEAR protocol that implements a counter. The counter is easy to implement but it's unique since it's stored on the near blockchain.
 
 ### Test & compile
 
