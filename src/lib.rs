@@ -1,15 +1,15 @@
 //! This smart contract implements a very simple counter that
-//! is backed by a storage on the NEAR blockchain.
+//! is backed by a storage on the near blockchain.
 //!
 //! Several methods are implemented:
-//! > [increment]
-//! > [decrement]
-//! > [get_num]
-//! > [reset]
+//!     increment()
+//!     decrement()
+//!     get_count()
+//!     reset()
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::{env, near_bindgen};
 
-/// Attributes are used to prepare code for serialization and
+/// Attributes are used to prepare code for de/serialization and
 /// invocation on the blockchain.
 #[near_bindgen]
 #[derive(Default, BorshDeserialize, BorshSerialize)]
